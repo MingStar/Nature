@@ -1,0 +1,124 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>805</width>
+    <height>689</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <widget class="QFrame" name="frame" >
+    <property name="geometry" >
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy>
+      <hsizetype>0</hsizetype>
+      <vsizetype>0</vsizetype>
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="frameShape" >
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow" >
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnManyDays" >
+    <property name="geometry" >
+     <rect>
+      <x>480</x>
+      <y>600</y>
+      <width>73</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Many Days</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtDays" >
+    <property name="geometry" >
+     <rect>
+      <x>570</x>
+      <y>600</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnNewDay" >
+    <property name="geometry" >
+     <rect>
+      <x>710</x>
+      <y>600</y>
+      <width>73</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>New Day!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSave" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>600</y>
+      <width>73</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLoad" >
+    <property name="geometry" >
+     <rect>
+      <x>90</x>
+      <y>600</y>
+      <width>73</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Load</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>805</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar" />
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>
